@@ -86,7 +86,7 @@
 
 .flex.project {
   margin-bottom: 50px;
-  padding-left: 1px;
+  padding-left: 0px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -334,8 +334,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding: 0px 100px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -878,6 +878,10 @@
 
 .columns-4 {
   padding-right: 0px;
+}
+
+.footer-project {
+  padding-top: 50px;
 }
 
 @media (max-width: 991px) {
