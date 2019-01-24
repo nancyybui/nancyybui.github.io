@@ -132,47 +132,12 @@
   padding-bottom: 0px;
 }
 
-.flex.end.site {
-  max-width: auto;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-}
-
 .flex.tag {
   margin-bottom: 0px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-}
-
-.flex.du {
-  margin-bottom: 0px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
 }
 
 .bold {
@@ -338,7 +303,9 @@
 }
 
 .footer {
+  margin-right: 100px;
   margin-bottom: 50px;
+  margin-left: 100px;
 }
 
 .footer-div {
@@ -362,12 +329,6 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.footer-div.home {
-  margin-bottom: 50px;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 .div-block-6 {
@@ -553,10 +514,6 @@
   color: #fff;
 }
 
-.project-h1.grey {
-  color: #424242;
-}
-
 .project-body {
   margin-bottom: 0px;
   padding-bottom: 25px;
@@ -666,8 +623,9 @@
 }
 
 .project-white {
-  margin-left: 0px;
-  padding: 100px 200px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 100px;
 }
 
 .about-contact {
@@ -700,23 +658,8 @@
   padding: 0px;
 }
 
-.column-13.scroll {
-  padding-top: 100px;
-  padding-right: 50px;
-  padding-bottom: 100px;
-}
-
 .column-14 {
   padding: 50px 0px 50px 50px;
-}
-
-.column-14.flip {
-  overflow: visible;
-  padding-left: 0px;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 
 .column-15 {
@@ -783,12 +726,6 @@
   letter-spacing: 0.2px;
 }
 
-.link.bold.thank {
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 700;
-}
-
 .link.white {
   border-bottom-color: #fff;
   color: #fff;
@@ -852,19 +789,6 @@
   background-color: transparent;
 }
 
-.project-scroll.top {
-  padding-bottom: 50px;
-}
-
-.project-scroll.middle {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.project-scroll.end {
-  padding-top: 50px;
-}
-
 .columns-2 {
   background-color: #e35639;
 }
@@ -917,6 +841,61 @@
   grid-row-gap: 0px;
 }
 
+.section-4 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.section-5 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.section-6 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.section-7 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.section-8 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.section-9 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.section-10 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.section-11 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.section-12 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.section-13 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.section-14 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
 @media (max-width: 991px) {
   .section {
     margin-right: 75px;
@@ -933,7 +912,7 @@
     padding-left: 0px;
   }
   .illustration-column {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     padding-right: 0px;
     -webkit-box-ordinal-group: 0;
     -webkit-order: -1;
@@ -994,7 +973,7 @@
   .flex.flex-home {
     max-width: 1240px;
     margin-right: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     margin-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1046,7 +1025,7 @@
     margin-bottom: 0px;
   }
   .homepage-container {
-    margin-bottom: 75px;
+    margin-bottom: 0px;
   }
   .nav-link {
     padding-right: 30px;
@@ -1094,9 +1073,6 @@
     margin-bottom: 10px;
     font-size: 18px;
     line-height: 30px;
-  }
-  .footer-div.home {
-    padding-bottom: 0px;
   }
   .footer-link-pad {
     font-size: 16px;
@@ -1186,7 +1162,9 @@
     margin-bottom: 25px;
   }
   .project-white {
+    margin-right: 0px;
     margin-bottom: 0px;
+    margin-left: 0px;
     padding: 75px;
   }
   .about-contact {
@@ -1224,6 +1202,38 @@
     font-size: 18px;
     line-height: 30px;
   }
+  .section-4 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .section-8 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .section-9 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .section-10 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .section-11 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .section-12 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .section-13 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .section-14 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1238,7 +1248,7 @@
     margin-left: 40px;
   }
   .illustration-column {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .flex.custom-container {
     margin-right: 40px;
@@ -1284,7 +1294,7 @@
     margin-bottom: 0px;
   }
   .homepage-container {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   .nav-link {
     padding-right: 25px;
@@ -1323,10 +1333,6 @@
     margin-bottom: 8px;
     font-size: 16px;
     line-height: 24px;
-  }
-  .footer.home {
-    margin-right: 40px;
-    margin-left: 40px;
   }
   .footer-div {
     margin-top: 30px;
@@ -1493,7 +1499,7 @@
     line-height: 20px;
   }
   .homepage-container {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
   }
   .nav-link {
     font-size: 12px;
@@ -1513,6 +1519,7 @@
     color: #e35639;
   }
   .hero-header1 {
+    margin-bottom: 10px;
     font-size: 20px;
     line-height: 26px;
   }
@@ -1531,19 +1538,9 @@
     font-size: 14px;
     line-height: 22px;
   }
-  .footer.home {
-    margin-right: 20px;
-    margin-left: 20px;
-  }
   .footer-div {
     margin-top: 25px;
     margin-bottom: 25px;
-  }
-  .footer-div.home {
-    margin-bottom: 0px;
-    padding-right: 0px;
-    padding-bottom: 25px;
-    padding-left: 0px;
   }
   .footer-link-pad {
     font-size: 12px;
@@ -1598,12 +1595,16 @@
     line-height: 26px;
   }
   .project-body {
+    padding-bottom: 10px;
     font-size: 12px;
     line-height: 20px;
   }
   .project-body.single {
     font-size: 12px;
     line-height: 20px;
+  }
+  .project-body.home {
+    padding-bottom: 10px;
   }
   .project-h2-b {
     font-size: 14px;
