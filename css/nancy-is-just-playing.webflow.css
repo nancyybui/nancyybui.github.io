@@ -332,6 +332,7 @@
 
 .body.small.caption.photo {
   margin-bottom: 2vw;
+  font-family: 'Self Modern', 'Times New Roman', sans-serif;
   text-align: center;
 }
 
@@ -807,6 +808,7 @@
   }
   .body.small.caption.photo {
     margin-bottom: 1.5vw;
+    font-size: 1.6vw;
   }
   .image-2 {
     margin-bottom: 4vw;
@@ -933,6 +935,7 @@
   .body.small.caption.photo {
     margin-top: 0vw;
     margin-bottom: 3vw;
+    font-size: 2vw;
   }
   .photo-right {
     padding-left: 0vw;
@@ -1075,6 +1078,9 @@
   .body.small.space.about {
     margin-top: 0vw;
     line-height: 5.5vw;
+  }
+  .body.small.caption.photo {
+    font-size: 2.6vw;
   }
   .image-2 {
     margin-bottom: 0vw;
