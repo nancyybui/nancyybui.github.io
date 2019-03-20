@@ -38,6 +38,10 @@
   border-bottom-style: none;
 }
 
+.nav-link.before.external:hover {
+  color: lime;
+}
+
 .nav-link.home {
   display: inline-block;
   padding-bottom: 0.25em;
