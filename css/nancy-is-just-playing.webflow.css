@@ -344,6 +344,10 @@
   text-transform: uppercase;
 }
 
+.body.small.download {
+  border: 1px none #000;
+}
+
 .body.white {
   color: #fff;
 }
@@ -730,6 +734,11 @@
 
 .body-2 {
   background-color: blue;
+}
+
+.text-span {
+  border-bottom: 0px none #000;
+  text-decoration: none;
 }
 
 @media (max-width: 991px) {
