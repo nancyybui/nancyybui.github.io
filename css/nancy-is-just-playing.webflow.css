@@ -320,9 +320,11 @@
 .body.small.caption.photo {
   display: block;
   margin-bottom: 2vw;
-  font-family: 'Apercu Mono', sans-serif;
+  font-family: 'Apercu Mono', Tahoma, sans-serif;
+  font-size: 0.9vw;
   font-style: normal;
   text-align: left;
+  letter-spacing: 0.0125vw;
 }
 
 .body.small.uppercase {
