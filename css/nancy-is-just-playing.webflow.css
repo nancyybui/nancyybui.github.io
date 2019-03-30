@@ -238,7 +238,7 @@
 }
 
 .nav-bar.about-page {
-  background-color: #ffd8d8;
+  background-color: transparent;
 }
 
 .footer {
@@ -684,6 +684,10 @@
 
 .navbar {
   background-color: #ffd8d8;
+}
+
+.navbar.about {
+  background-color: transparent;
 }
 
 .navbar-2 {
