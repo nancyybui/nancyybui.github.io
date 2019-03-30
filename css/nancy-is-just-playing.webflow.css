@@ -237,6 +237,10 @@
   background-color: transparent;
 }
 
+.nav-bar.about-page {
+  background-color: #ffd8d8;
+}
+
 .footer {
   position: static;
   left: 0%;
@@ -676,6 +680,22 @@
 
 .body-2 {
   background-color: blue;
+}
+
+.navbar {
+  background-color: #ffd8d8;
+}
+
+.navbar-2 {
+  background-color: #fff;
+}
+
+.navbar-3 {
+  background-color: #fff;
+}
+
+.navbar-4 {
+  background-color: #fff;
 }
 
 @media (max-width: 991px) {
