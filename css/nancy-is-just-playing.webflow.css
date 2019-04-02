@@ -233,10 +233,6 @@
   background-color: #fff;
 }
 
-.nav-bar.about {
-  background-color: transparent;
-}
-
 .nav-bar.about-page {
   background-color: transparent;
 }
@@ -742,14 +738,6 @@
     margin-right: 0vw;
     margin-left: 0vw;
     padding: 4vw 0vw;
-  }
-  .nav-bar.about {
-    position: static;
-    margin-right: 0vw;
-    margin-left: 0vw;
-    padding-right: 0vw;
-    padding-left: 0vw;
-    background-color: #ffd8d8;
   }
   .footer {
     margin-bottom: 0vw;
