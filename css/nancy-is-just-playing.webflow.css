@@ -903,7 +903,7 @@
     font-weight: 400;
   }
   .heading.white {
-    margin-bottom: 1vw;
+    margin-bottom: 0vw;
     line-height: 6.4vw;
   }
   .column-2.stacked {
@@ -1092,6 +1092,8 @@
   .wip {
     margin-right: -5vw;
     margin-left: -5vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
   }
 }
 
@@ -1217,6 +1219,8 @@
   .wip {
     margin-right: -6vw;
     margin-left: -6vw;
+    padding-right: 6vw;
+    padding-left: 6vw;
   }
 }
 
@@ -1372,7 +1376,7 @@
     margin-bottom: 5vw;
   }
   .wip {
-    padding: 5vw;
+    padding: 5vw 6vw;
   }
 }
 
