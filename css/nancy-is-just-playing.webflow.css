@@ -790,6 +790,7 @@
   height: auto;
   max-height: 35vw;
   max-width: 35vw;
+  margin-top: 2vw;
 }
 
 .case-study-column-right {
