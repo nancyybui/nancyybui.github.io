@@ -138,10 +138,6 @@
   font-family: Moderat, sans-serif;
 }
 
-.heading.moderat.title {
-  margin-bottom: 0vw;
-}
-
 .heading.moderat.new {
   margin-top: 3vw;
   margin-bottom: 2vw;
@@ -165,10 +161,6 @@
 
 .heading.white {
   color: #fff;
-}
-
-.heading.italic {
-  font-style: italic;
 }
 
 .column-2 {
@@ -358,10 +350,6 @@
 .body.small.bold {
   margin-bottom: 0vw;
   font-weight: 700;
-}
-
-.body.small.bold.case-study-overview {
-  margin-bottom: 0.5vw;
 }
 
 .body.small.space {
@@ -772,6 +760,11 @@
 }
 
 .stride-hero {
+  position: static;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -809,10 +802,6 @@
   background-color: transparent;
 }
 
-.case-study-column.black {
-  background-color: #000;
-}
-
 .case-study-column.overview {
   display: -webkit-box;
   display: -webkit-flex;
@@ -840,6 +829,11 @@
   padding-left: 1vw;
 }
 
+.case-study-overview.stride {
+  margin-top: 0vw;
+  background-color: #fff;
+}
+
 .full-width-image {
   padding-top: 2vw;
   padding-bottom: 2vw;
@@ -857,7 +851,7 @@
   margin-bottom: 2vw;
 }
 
-.wip {
+.closing {
   margin-right: -3vw;
   margin-left: -3vw;
   padding: 3vw;
@@ -1097,7 +1091,7 @@
   .body-text.container {
     padding: 3vw 0vw;
   }
-  .wip {
+  .closing {
     margin-right: -5vw;
     margin-left: -5vw;
     padding-right: 5vw;
@@ -1234,7 +1228,7 @@
     padding-top: 2vw;
     padding-bottom: 2vw;
   }
-  .wip {
+  .closing {
     margin-right: -6vw;
     margin-left: -6vw;
     padding-right: 6vw;
@@ -1399,7 +1393,7 @@
   .case-study-overview {
     margin-bottom: 5vw;
   }
-  .wip {
+  .closing {
     padding: 5vw 6vw;
   }
 }
