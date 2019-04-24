@@ -989,6 +989,9 @@
   .body.about.space {
     margin-bottom: 2vw;
   }
+  .body.space {
+    padding-right: 0vw;
+  }
   .about {
     margin-bottom: 4vw;
   }
@@ -1069,7 +1072,7 @@
     max-width: 50vw;
   }
   .case-study-column-right.three {
-    padding-right: 0vw;
+    padding-right: 1.5vw;
     padding-bottom: 0vw;
     padding-left: 0vw;
   }
@@ -1084,12 +1087,12 @@
   }
   .case-study-column-left.three {
     padding-right: 0vw;
-    padding-left: 0vw;
+    padding-left: 1.5vw;
   }
   .case-study-column-middle {
-    padding-right: 0vw;
+    padding-right: 1.5vw;
     padding-bottom: 0vw;
-    padding-left: 0vw;
+    padding-left: 1.5vw;
   }
   .body-text.container {
     padding: 3vw 0vw;
@@ -1216,6 +1219,16 @@
   }
   .caption {
     font-size: 3.7vw;
+  }
+  .case-study-column-right.three {
+    padding-right: 0vw;
+  }
+  .case-study-column-left.three {
+    padding-left: 0vw;
+  }
+  .case-study-column-middle {
+    padding-right: 0vw;
+    padding-left: 0vw;
   }
   .body-text.container {
     padding-top: 2vw;
