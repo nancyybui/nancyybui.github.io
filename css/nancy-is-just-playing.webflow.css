@@ -280,6 +280,10 @@
   background-color: transparent;
 }
 
+.nav-bar.design {
+  background-color: #fff;
+}
+
 .footer {
   position: static;
   left: 0%;
@@ -373,6 +377,10 @@
 
 .body.small.caption.photo.space {
   margin-bottom: 2vw;
+}
+
+.body.small.caption.photo.space.frontiers {
+  margin-bottom: 4vw;
 }
 
 .body.small.uppercase {
@@ -565,7 +573,7 @@
 }
 
 .work-page {
-  margin-top: 6.3vw;
+  margin-top: 6.28vw;
 }
 
 .home-hero {
@@ -751,6 +759,10 @@
   background-color: #fff;
 }
 
+.navbar-2.design {
+  background-color: #fff;
+}
+
 .navbar-3 {
   background-color: #fff;
 }
@@ -769,7 +781,9 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 6.3vw;
+  margin-top: 6.28vw;
+  margin-right: -3vw;
+  margin-left: -3vw;
   padding-bottom: 2vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -777,13 +791,26 @@
   justify-content: center;
 }
 
-.stride-hero-image {
+.stride-hero.design {
+  margin-top: 0vw;
+  padding-top: 6.28vw;
+  background-color: #fff;
+}
+
+.hero-image {
   display: block;
   width: auto;
   height: auto;
   max-height: 35vw;
   max-width: 35vw;
   margin-top: 2vw;
+  padding: 2vw;
+}
+
+.hero-image.design {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  padding: 2vw;
 }
 
 .case-study-column-right {
@@ -813,6 +840,15 @@
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+  background-color: transparent;
+}
+
+.case-study-column.overview.design {
+  background-color: transparent;
+}
+
+.case-study-column.design {
+  background-color: transparent;
 }
 
 .case-study-column-left {
@@ -839,6 +875,12 @@
   padding-bottom: 2vw;
 }
 
+.full-width-image.hero {
+  margin-top: 6.28vw;
+  padding-top: 0vw;
+  padding-bottom: 0vw;
+}
+
 .body-text {
   padding: 0vw;
 }
@@ -858,14 +900,36 @@
   background-color: #2f8c7e;
 }
 
+.closing.design {
+  background-color: #127fa7;
+}
+
 .two-column-1 {
-  padding-right: 1vw;
+  padding-right: 1.5vw;
   padding-left: 0px;
+}
+
+.two-column-1.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 6.28vw;
+  padding-right: 2vw;
 }
 
 .two-column-2 {
   padding-right: 0px;
-  padding-left: 1vw;
+  padding-left: 1.5vw;
+}
+
+.two-column-2.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  padding-left: 2vw;
+}
+
+.full-widith-hero.design {
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
 }
 
 @media (max-width: 991px) {
@@ -1061,7 +1125,7 @@
   .stride-hero {
     margin-top: 0vw;
   }
-  .stride-hero-image {
+  .hero-image {
     max-height: 50vw;
     max-width: 50vw;
   }
@@ -1079,6 +1143,9 @@
     margin-right: 0vw;
     margin-left: 0vw;
   }
+  .case-study-column.design {
+    padding-bottom: 2vw;
+  }
   .case-study-column-left.three {
     padding-right: 0vw;
     padding-left: 1.5vw;
@@ -1088,6 +1155,9 @@
     padding-bottom: 0vw;
     padding-left: 1.5vw;
   }
+  .full-width-image.hero {
+    margin-top: 0vw;
+  }
   .body-text.container {
     padding: 3vw 0vw;
   }
@@ -1096,6 +1166,9 @@
     margin-left: -5vw;
     padding-right: 5vw;
     padding-left: 5vw;
+  }
+  .full-widith-hero.design {
+    margin-bottom: 2vw;
   }
 }
 
@@ -1237,6 +1310,10 @@
   .two-column-1 {
     padding-right: 0vw;
   }
+  .two-column-1.sticky {
+    position: static;
+    padding-bottom: 2vw;
+  }
   .two-column-2 {
     padding-left: 0vw;
   }
@@ -1353,6 +1430,7 @@
     line-height: 5.5vw;
   }
   .body.small.caption.photo {
+    margin-bottom: 0vw;
     font-size: 2.6vw;
     line-height: 4.4vw;
   }
@@ -1383,18 +1461,24 @@
   .caption {
     font-size: 5vw;
   }
-  .stride-hero-image {
+  .hero-image {
     max-height: 70vw;
     max-width: 70vw;
   }
   .case-study-column.overview {
     padding-top: 1vw;
   }
+  .case-study-column.design {
+    padding-bottom: 0vw;
+  }
   .case-study-overview {
     margin-bottom: 5vw;
   }
   .closing {
     padding: 5vw 6vw;
+  }
+  .full-widith-hero.design {
+    margin-bottom: 4vw;
   }
 }
 
