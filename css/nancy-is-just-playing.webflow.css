@@ -51,14 +51,14 @@
 }
 
 .nav-link.before.external:hover {
-  color: lime;
+  color: #0f0;
 }
 
 .nav-link.home {
   display: inline-block;
   padding-bottom: 0.25em;
   border-bottom-style: solid;
-  color: hsla(38.82352941176471, 40.63%, 0.00%, 1.00);
+  color: #000;
 }
 
 .nav-link.home.info {
@@ -99,7 +99,7 @@
 }
 
 .nav-link.external:hover {
-  color: lime;
+  color: #0f0;
 }
 
 .nav-link.white {
@@ -272,7 +272,7 @@
 }
 
 .home.about {
-  background-color: #ffd6d6;
+  background-color: #ffd8d8;
 }
 
 .nav-bar {
@@ -695,7 +695,7 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-color: blue;
+  background-color: #00f;
 }
 
 .heading-3 {
@@ -740,7 +740,7 @@
 }
 
 .body-2 {
-  background-color: blue;
+  background-color: #00f;
 }
 
 .navbar {
@@ -888,6 +888,10 @@
   background-color: #127fa7;
 }
 
+.closing.mongodb-hover {
+  background-color: #13aa52;
+}
+
 .two-column-1 {
   padding-right: 1.5vw;
   padding-left: 0px;
@@ -914,6 +918,10 @@
   margin-bottom: 1vw;
   grid-column-gap: 0vw;
   grid-row-gap: 0vw;
+}
+
+.mongodb {
+  margin-bottom: 2vw;
 }
 
 @media (max-width: 991px) {
