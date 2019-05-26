@@ -85,6 +85,10 @@
   color: #f0f;
 }
 
+.nav-link.info.email {
+  display: none;
+}
+
 .nav-link.small {
   font-size: 1vw;
 }
@@ -147,6 +151,10 @@
 }
 
 .heading.hero {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
   line-height: 3.4vw;
 }
 
