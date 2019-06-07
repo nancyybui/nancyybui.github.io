@@ -668,6 +668,7 @@
 
 .image.nancy-hover {
   display: none;
+  overflow: visible;
 }
 
 .image.public-transportation-hover {
