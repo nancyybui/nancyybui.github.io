@@ -89,7 +89,7 @@
   display: none;
 }
 
-.nav-link.smol {
+.nav-link.small {
   font-size: 1vw;
 }
 
@@ -1023,7 +1023,7 @@
   .nav-link.home.info.w--current {
     font-size: 2vw;
   }
-  .nav-link.smol {
+  .nav-link.small {
     font-size: 2vw;
   }
   .heading {
@@ -1422,7 +1422,7 @@
   .nav-link.home.info.w--current {
     font-size: 3vw;
   }
-  .nav-link.smol {
+  .nav-link.small {
     font-size: 3vw;
     line-height: 6vw;
   }
