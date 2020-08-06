@@ -180,7 +180,10 @@ img {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  line-height: 3.4vw;
+  color: #000;
+  font-size: 3vw;
+  line-height: 4.6vw;
+  letter-spacing: 0.06vw;
 }
 
 .heading.moderat {
@@ -628,11 +631,11 @@ img {
 .home-hero {
   position: absolute;
   left: 3vw;
-  top: 20%;
+  top: 16%;
   right: 3vw;
   bottom: auto;
   display: block;
-  margin-top: 2.8vw;
+  margin-top: 0vw;
   clear: none;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
