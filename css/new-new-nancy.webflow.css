@@ -235,6 +235,10 @@
   color: #00f;
 }
 
+.image-6 {
+  max-width: 120%;
+}
+
 @media screen and (max-width: 991px) {
   .link.instagram {
     font-size: 6vw;
@@ -315,6 +319,9 @@
   }
   .text-span-2 {
     font-size: 4.6vw;
+  }
+  .image-6 {
+    max-width: 100%;
   }
 }
 
