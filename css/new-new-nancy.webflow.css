@@ -196,11 +196,11 @@
 }
 
 .flower:hover {
-  color: red;
+  color: #f0f;
 }
 
 .flower-2:hover {
-  color: #0f0;
+  color: red;
 }
 
 .text-span {
@@ -213,6 +213,26 @@
 
 .image-5 {
   max-width: 95%;
+}
+
+.flower-3:hover {
+  color: #ff0;
+}
+
+.flower-4:hover {
+  color: #0f0;
+}
+
+.flower-5 {
+  color: #000;
+}
+
+.flower-5:hover {
+  color: #0ff;
+}
+
+.flower-6:hover {
+  color: #00f;
 }
 
 @media screen and (max-width: 991px) {
