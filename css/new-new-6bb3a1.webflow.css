@@ -1,0 +1,339 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.section {
+  padding: 6vw;
+}
+
+.body {
+  color: #000;
+}
+
+.link {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #000;
+  font-size: 6.5vw;
+  text-decoration: none;
+}
+
+.link.instagram:hover {
+  color: red;
+}
+
+.link.twitter:hover {
+  color: #0f0;
+}
+
+.link.linkedin:hover {
+  color: #00f;
+}
+
+.link.email:hover {
+  color: #f0f;
+}
+
+.text {
+  display: block;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  font-family: 'Bretagne self modern web', sans-serif;
+  font-size: 6.4vw;
+  line-height: 8vw;
+  letter-spacing: 0.025vw;
+}
+
+.text.left-aligned {
+  line-height: 8vw;
+}
+
+.text.left-aligned.spacer {
+  padding-top: 0vw;
+}
+
+.text.right-aligned {
+  text-align: right;
+}
+
+.text.right-aligned.flower-accent:hover {
+  color: #000;
+}
+
+.text.center-aligned {
+  text-align: center;
+}
+
+.text.center-aligned:hover {
+  color: #ff0;
+}
+
+.flower-accent {
+  letter-spacing: 1vw;
+}
+
+.flower-accent:hover {
+  color: #f0f;
+}
+
+.grid {
+  grid-template-areas: "Area";
+  -ms-grid-columns: 0.5fr 1fr;
+  grid-template-columns: 0.5fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid.long {
+  margin-top: 0vw;
+  -ms-grid-columns: 1.5fr 0.5fr;
+  grid-template-columns: 1.5fr 0.5fr;
+}
+
+.grid.long.cake {
+  margin-top: 2vw;
+}
+
+.grid.social {
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1.75fr 2.5fr;
+  grid-template-columns: 1.75fr 2.5fr;
+}
+
+.grid.social.tamagotchi {
+  -ms-grid-columns: 0.75fr 0.5fr 1fr;
+  grid-template-columns: 0.75fr 0.5fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid.home {
+  -ms-grid-columns: 1.25fr 1fr 1fr;
+  grid-template-columns: 1.25fr 1fr 1fr;
+}
+
+.grid.animal-crossing {
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid.nintendo {
+  -ms-grid-columns: 1.75fr 1fr;
+  grid-template-columns: 1.75fr 1fr;
+}
+
+.grid-2 {
+  grid-template-areas: ". Area";
+  -ms-grid-columns: 1.25fr 0.5fr 1.5fr;
+  grid-template-columns: 1.25fr 0.5fr 1.5fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.equal-accent {
+  letter-spacing: 1.1vw;
+}
+
+.equal-accent:hover {
+  color: #000;
+}
+
+.image {
+  min-width: 100%;
+}
+
+.command:hover {
+  color: #f0f;
+}
+
+.star:hover {
+  color: #0ff;
+}
+
+.gender:hover {
+  color: #00f;
+}
+
+.yellow:hover {
+  color: #ff0;
+}
+
+.image-2 {
+  max-width: 80%;
+  min-width: auto;
+}
+
+.lines:hover {
+  color: #000;
+}
+
+.image-3 {
+  max-width: 90%;
+}
+
+.image-4 {
+  max-width: 90%;
+}
+
+.flower:hover {
+  color: red;
+}
+
+.flower-2:hover {
+  color: #0f0;
+}
+
+@media screen and (max-width: 991px) {
+  .link.instagram {
+    font-size: 6vw;
+  }
+  .link.twitter {
+    font-size: 6vw;
+  }
+  .link.linkedin {
+    font-size: 6vw;
+  }
+  .link.email {
+    font-size: 6vw;
+  }
+  .text {
+    font-size: 6vw;
+  }
+  .text.left-aligned {
+    font-size: 6vw;
+  }
+  .text.right-aligned {
+    font-size: 6vw;
+  }
+  .grid.home {
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .grid.social {
+    grid-row-gap: 0px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+  .link.instagram {
+    font-size: 6vw;
+  }
+  .link.twitter {
+    font-size: 6vw;
+  }
+  .link.linkedin {
+    font-size: 6vw;
+  }
+  .link.email {
+    font-size: 6vw;
+  }
+  .text {
+    font-size: 6vw;
+  }
+  .text.right-aligned {
+    font-size: 5.8vw;
+  }
+  .grid.social {
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    justify-items: stretch;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    grid-row-gap: 0px;
+  }
+  .image {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+#w-node-924da0f4ef53-31d33808 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-d37668cd0500-31d33808 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  -ms-grid-row-align: end;
+  align-self: end;
+}
+
+#w-node-649b4b52ce2a-31d33808 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-a5767ef60d40-31d33808 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+}
+
+@font-face {
+  font-family: 'Bretagne self modern web';
+  src: url('../fonts/bretagne_self-modern_italic_web.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Bretagne self modern web';
+  src: url('../fonts/bretagne_self-modern_regular_web.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sf pro display';
+  src: url('../fonts/SF-Pro-Display-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Sf pro display';
+  src: url('../fonts/SF-Pro-Display-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
