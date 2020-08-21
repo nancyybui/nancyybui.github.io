@@ -112,8 +112,8 @@
 
 .grid.social {
   grid-row-gap: 0px;
-  -ms-grid-columns: 1.75fr 2.5fr;
-  grid-template-columns: 1.75fr 2.5fr;
+  -ms-grid-columns: 1.75fr 2.25fr;
+  grid-template-columns: 1.75fr 2.25fr;
 }
 
 .grid.social.tamagotchi {
@@ -179,7 +179,7 @@
 }
 
 .image-2 {
-  max-width: 80%;
+  max-width: 85%;
   min-width: auto;
 }
 
@@ -201,6 +201,18 @@
 
 .flower-2:hover {
   color: #0f0;
+}
+
+.text-span {
+  font-size: 2vw;
+}
+
+.text-span-2 {
+  font-size: 4.8vw;
+}
+
+.image-5 {
+  max-width: 95%;
 }
 
 @media screen and (max-width: 991px) {
@@ -281,9 +293,21 @@
     max-width: 100%;
     min-width: 100%;
   }
+  .text-span-2 {
+    font-size: 4.6vw;
+  }
 }
 
 #w-node-924da0f4ef53-31d33808 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-7f62dcbf8b26-31d33808 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   -ms-grid-column-align: center;
   justify-self: center;
 }
