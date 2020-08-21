@@ -117,8 +117,8 @@
 }
 
 .grid.social.tamagotchi {
-  -ms-grid-columns: 0.75fr 0.5fr 1fr;
-  grid-template-columns: 0.75fr 0.5fr 1fr;
+  -ms-grid-columns: 0.5fr 0.5fr 1.25fr;
+  grid-template-columns: 0.5fr 0.5fr 1.25fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -156,6 +156,10 @@
 
 .image {
   min-width: 100%;
+}
+
+.command {
+  font-size: 6vw;
 }
 
 .command:hover {
