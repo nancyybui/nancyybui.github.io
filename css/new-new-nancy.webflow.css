@@ -155,7 +155,8 @@
 }
 
 .image {
-  min-width: 100%;
+  max-width: 94%;
+  min-width: 94%;
 }
 
 .command {
