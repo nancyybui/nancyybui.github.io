@@ -134,6 +134,7 @@
 
 .grid.long.cake {
   margin-top: 2vw;
+  margin-bottom: -1vw;
   grid-column-gap: 0px;
   -ms-grid-columns: 0.5fr 1.25fr;
   grid-template-columns: 0.5fr 1.25fr;
@@ -198,8 +199,8 @@
 }
 
 .image.draw {
-  max-width: 110%;
-  min-width: 110%;
+  max-width: 105%;
+  min-width: 105%;
 }
 
 .command {
@@ -408,6 +409,13 @@
 #w-node-924da0f4ef53-31d33808 {
   -ms-grid-column-align: center;
   justify-self: center;
+}
+
+#w-node-5d4b6803dc4d-31d33808 {
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  -ms-grid-row-align: end;
+  align-self: end;
 }
 
 #w-node-a5767ef60d41-31d33808 {
