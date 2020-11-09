@@ -357,8 +357,8 @@
   }
 
   .grid {
-    -ms-grid-columns: 2fr 0.75fr;
-    grid-template-columns: 2fr 0.75fr;
+    -ms-grid-columns: 2.25fr 0.75fr;
+    grid-template-columns: 2.25fr 0.75fr;
   }
 
   .grid.social {
