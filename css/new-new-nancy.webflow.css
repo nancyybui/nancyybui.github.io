@@ -41,6 +41,14 @@
   color: #f0f;
 }
 
+.link.draw:hover {
+  color: #ff0;
+}
+
+.link.photo:hover {
+  color: #0ff;
+}
+
 .text {
   display: block;
   -webkit-box-pack: justify;
@@ -76,12 +84,30 @@
   color: #000;
 }
 
+.text.right-aligned.draw {
+  margin-top: 0vw;
+  margin-bottom: 2.2vw;
+}
+
 .text.center-aligned {
   text-align: center;
 }
 
 .text.center-aligned:hover {
   color: #ff0;
+}
+
+.text.divider {
+  margin-top: 2vw;
+  text-align: center;
+}
+
+.text.divider._2 {
+  margin-bottom: 2vw;
+}
+
+.text.draw {
+  margin-top: 1vw;
 }
 
 .flower-accent {
@@ -94,8 +120,8 @@
 
 .grid {
   grid-template-areas: "Area";
-  -ms-grid-columns: 0.5fr 1fr;
-  grid-template-columns: 0.5fr 1fr;
+  -ms-grid-columns: 2fr 1fr;
+  grid-template-columns: 2fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -108,6 +134,14 @@
 
 .grid.long.cake {
   margin-top: 2vw;
+  grid-column-gap: 0px;
+  -ms-grid-columns: 0.5fr 1.25fr;
+  grid-template-columns: 0.5fr 1.25fr;
+}
+
+.grid.long.draw {
+  -ms-grid-columns: 0.25fr 0.5fr;
+  grid-template-columns: 0.25fr 0.5fr;
 }
 
 .grid.social {
@@ -129,8 +163,8 @@
 }
 
 .grid.animal-crossing {
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 0.5fr 0.75fr 0.25fr;
+  grid-template-columns: 0.5fr 0.75fr 0.25fr;
 }
 
 .grid.nintendo {
@@ -140,8 +174,8 @@
 
 .grid-2 {
   grid-template-areas: ". Area";
-  -ms-grid-columns: 1.25fr 0.5fr 1.5fr;
-  grid-template-columns: 1.25fr 0.5fr 1.5fr;
+  -ms-grid-columns: 1fr 0.25fr 1.25fr;
+  grid-template-columns: 1fr 0.25fr 1.25fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -190,6 +224,7 @@
 
 .image-3 {
   max-width: 90%;
+  margin-top: 1vw;
 }
 
 .image-4 {
@@ -240,28 +275,43 @@
   max-width: 120%;
 }
 
+.bear {
+  letter-spacing: 1vw;
+}
+
+.smiley {
+  font-size: 5.6vw;
+}
+
 @media screen and (max-width: 991px) {
   .link.instagram {
     font-size: 6vw;
   }
+
   .link.twitter {
     font-size: 6vw;
   }
+
   .link.linkedin {
     font-size: 6vw;
   }
+
   .link.email {
     font-size: 6vw;
   }
+
   .text {
     font-size: 6vw;
   }
+
   .text.left-aligned {
     font-size: 6vw;
   }
+
   .text.right-aligned {
     font-size: 6vw;
   }
+
   .grid.home {
     -webkit-box-pack: stretch;
     -webkit-justify-content: stretch;
@@ -281,24 +331,31 @@
     padding-top: 4vw;
     padding-bottom: 4vw;
   }
+
   .link.instagram {
     font-size: 6vw;
   }
+
   .link.twitter {
     font-size: 6vw;
   }
+
   .link.linkedin {
     font-size: 6vw;
   }
+
   .link.email {
     font-size: 6vw;
   }
+
   .text {
     font-size: 6vw;
   }
+
   .text.right-aligned {
     font-size: 5.8vw;
   }
+
   .grid.social {
     -webkit-box-pack: stretch;
     -webkit-justify-content: stretch;
@@ -314,13 +371,16 @@
     align-content: stretch;
     grid-row-gap: 0px;
   }
+
   .image {
     max-width: 100%;
     min-width: 100%;
   }
+
   .text-span-2 {
     font-size: 4.6vw;
   }
+
   .image-6 {
     max-width: 100%;
   }
@@ -331,22 +391,33 @@
   justify-self: center;
 }
 
-#w-node-7f62dcbf8b26-31d33808 {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+#w-node-ac5dc5da01f2-31d33808 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: Area;
   -ms-grid-column-align: center;
   justify-self: center;
 }
 
-#w-node-d37668cd0500-31d33808 {
-  -ms-grid-column-align: start;
-  justify-self: start;
-  -webkit-align-self: end;
-  -ms-flex-item-align: end;
-  -ms-grid-row-align: end;
-  align-self: end;
+.grid-2>#w-node-ac5dc5da01f2-31d33808 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+#w-node-a162f51cbb44-31d33808 {
+  -ms-grid-column-align: end;
+  justify-self: end;
+}
+
+#w-node-a5767ef60d41-31d33808 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: Area;
+}
+
+.grid-2>#w-node-a5767ef60d41-31d33808 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
 }
 
 #w-node-649b4b52ce2a-31d33808 {
@@ -357,7 +428,7 @@
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-a5767ef60d40-31d33808 {
+  #w-node-a69b3a383881-31d33808 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -374,22 +445,26 @@
   src: url('../fonts/bretagne_self-modern_italic_web.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Bretagne self modern web';
   src: url('../fonts/bretagne_self-modern_regular_web.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Sf pro display';
   src: url('../fonts/SF-Pro-Display-RegularItalic.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Sf pro display';
   src: url('../fonts/SF-Pro-Display-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
