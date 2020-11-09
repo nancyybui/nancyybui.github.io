@@ -193,8 +193,13 @@
 }
 
 .image {
-  max-width: 94%;
-  min-width: 94%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.image.draw {
+  max-width: 110%;
+  min-width: 110%;
 }
 
 .command {
@@ -382,6 +387,11 @@
   }
 
   .image {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .image.draw {
     max-width: 100%;
     min-width: 100%;
   }
